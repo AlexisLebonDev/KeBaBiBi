@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: "Mansalva";
-    src: url("font/Mansalva-Regular.ttf") format("truetype") ;
+    src: url("../font/Mansalva-Regular.ttf") format("truetype") ;
 
   }
 
 
 .body {
 
-    background-image: url('images/fondkebab.png');
+    background-image: url('../images/fondkebab.png');
     background-size: contain;
     background-repeat: no-repeat;
 
