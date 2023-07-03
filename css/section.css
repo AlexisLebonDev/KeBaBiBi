@@ -1,0 +1,111 @@
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+    font-family: "Mansalva";
+
+    margin: 0;
+
+}
+
+
+.article1 {
+    width: 100%;
+    height: 750px;
+
+    line-height: 0em;
+    
+    display: flex;
+    flex-direction: column;
+
+
+
+    border: solid 1px green;
+
+}
+
+
+.boutonlivraison:link {
+    width: 230px;
+    height: 65px;
+    background-color: rgb(254, 189, 68);
+    border-radius: 10px 10px 10px 10px;
+
+    font-size: 2em;
+
+    
+    align-self: center;
+
+    border: solid 1px black;
+
+}
+
+.photocuisine {
+    width: 40%;
+    height: 390px;
+}
+
+.article2 {
+    width: 57%;
+    height: 390px ;
+    
+    padding : 10px 20px 0 20px;
+
+    background-color: white;
+
+
+}
+
+.article3 {
+    width: 37%;
+    height: 650px;
+    line-height: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.photorecette {
+    width: 60%;
+}
+
+.article4 {
+    background-color: rgb(254, 189, 68);
+    width: 100%;
+    height: 700px;
+
+}
+
+.declinaison {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.declinaison1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.declinaison2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.declinaison3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.declinaison img{
+    border: solid 8px white;
+}
+
+.declinaison p{
+    font-size: 2em;
+}

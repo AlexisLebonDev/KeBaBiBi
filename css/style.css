@@ -1,0 +1,52 @@
+@import url("nav.css");
+@import url("section.css");
+
+@font-face {
+    font-family: "Mansalva";
+    src: url("/font/Mansalva-Regular.ttf") format("truetype") ;
+
+  }
+
+
+.body {
+
+    background-image: url('/images/fondkebab.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+
+
+h1 {
+    font-size: 10em;
+border: solid 1px red;
+    
+}
+
+.soustitre {
+    font-size: 3em;
+    font-style: italic;
+
+    border: solid 1px blue;
+    
+}
+
+h2 {
+    font-size: 3em;
+    color : orange;
+
+}
+
+h3 {
+    color: orange;
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 2em;
+
+}
