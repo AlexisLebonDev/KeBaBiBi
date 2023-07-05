@@ -44,7 +44,7 @@ a:link {
     width: 100%;
     height: 100%;
 
-    padding-top: 6px;
+    padding: 6px 6px 6px 6px;
 
 }    
 
@@ -68,6 +68,7 @@ a:link {
 .contact {
     font-size: 1em;
     align-self: center;
+
 }
 
 .cartemini {
@@ -104,6 +105,10 @@ a:link {
 
 @media screen and (max-width: 810px) {
 
+    .logohome {
+        width: 70px;
+        height: 75px;
+    }
     .lacarte{
         font-size: 0.5em;
         font-weight: bold;
